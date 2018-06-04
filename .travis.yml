@@ -10,3 +10,6 @@ before_install:
 script:
   - id
   - /bin/bash test.sh
+
+after_script:
+  - cat html.html
