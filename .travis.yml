@@ -7,4 +7,5 @@ before_install:
   - /bin/bash build.sh
 
 script:
+  - id
   - /bin/bash test.sh

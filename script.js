@@ -39,7 +39,7 @@ const file = '/app/app/html.html';
         }
         catch (e) {
 
-            console.log(`Ultimate stop...`);
+            console.log(`try catch:` + e.message);
 
             process.exit(1);
         }
