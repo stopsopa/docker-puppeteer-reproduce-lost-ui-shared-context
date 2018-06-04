@@ -5,6 +5,7 @@ services:
 
 before_install:
   - /bin/bash build.sh
+  - chmod a+w .
 
 script:
   - id
