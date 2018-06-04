@@ -27,7 +27,11 @@ const file = '/app/app/html.html';
 
         try {
 
+            console.log(`before page.content()`);
+
             const html = await page.content();
+
+            console.log(`after page.content()`);
 
             fs.appendFileSync(file, html + '');
 
@@ -55,7 +59,11 @@ const file = '/app/app/html.html';
         'networkidle2',
     ]
 
+    console.log(`before goto`);
+
     await page.goto(url, { waitUntil });
+
+    console.log(`before regular scrap`);
 
     await scrap();
 
