@@ -6,7 +6,8 @@ const fs = require('fs');
 const path = require('path');
 
 
-const url = 'https://stopsopa.github.io/docker-puppeteer-reproduce-lost-ui-shared-context/';
+// const url = 'https://stopsopa.github.io/docker-puppeteer-reproduce-lost-ui-shared-context/';
+const url = 'https://stopsopa.github.io/docker-puppeteer-reproduce-lost-ui-shared-context/wrong.html';
 
 const file = '/app/app/html.html';
 
