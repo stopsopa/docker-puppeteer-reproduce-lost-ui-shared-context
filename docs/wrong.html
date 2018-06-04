@@ -9,6 +9,12 @@
 </head>
 <body>
     <div>example TypeError page</div>
+    <pre></pre>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('pre').innerHTML = 'test...';
+        });
+    </script>
     <script>throw new TypeError('test...')</script>
 </body>
 </html>
