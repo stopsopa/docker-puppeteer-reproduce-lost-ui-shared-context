@@ -1,6 +1,7 @@
 
 source config.sh
 
+set -o xtrace
 set -e
 
 rm -rf html.html

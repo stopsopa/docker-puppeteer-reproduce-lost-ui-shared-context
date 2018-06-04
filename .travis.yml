@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - /bin/bash build.sh
+
+script:
+  - /bin/bash test.sh
