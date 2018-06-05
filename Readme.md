@@ -6,6 +6,10 @@ Repository that reproduce puppeteer/chrome error mentioned in those threads:
 - [github repo issue 1828](https://github.com/GoogleChrome/puppeteer/issues/1828)
 - [chromium issue 383314](https://bugs.chromium.org/p/chromium/issues/detail?id=383314)
 
+and further suggestion issue:
+
+- [suggestion](https://github.com/GoogleChrome/puppeteer/issues/2676)
+
 
 
 
